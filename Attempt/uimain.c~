@@ -1,0 +1,9 @@
+#include "history.h"
+#include <stdlib.h>
+#include <stdio.h>
+
+int main(){
+  printf("/n$ >");
+  char user_input[101];
+  fgets(user_input,100,stdin);
+}
