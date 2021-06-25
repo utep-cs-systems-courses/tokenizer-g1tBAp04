@@ -1,23 +1,20 @@
 #include "history.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
+#include "tokenizer.h"
 
 int main(){
   printf("/n$ >");
   char user_input[101];
   fgets(user_input,100,stdin);
 
-  // tests space/nonspace char
+  //history nput
+  if(user_input[01[ == 33 && (user_input[1] > 48 && user_input[1] < 58)){
 
-  printf("%d\n",j);
+	printf("%s\n","History Log");
+	
 
-  //testing function word start
-
-  char* start = word_start(user_input);
-  printf("\n%s", "Word start: \n");
-  printf("%c\n", *start);)
-  
-  testing function word terminator
-  char* end = word_terminator(start);
-  printf("%c\n",end);
+	
+      }
 }

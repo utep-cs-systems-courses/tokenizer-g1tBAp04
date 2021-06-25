@@ -23,6 +23,9 @@ char *word_terminator(char *word);
 /* Counts the number of words in the string argument. */
 int count_words(char *str);
 
+/*returns string length*/
+int str_length(char *str);
+
 /* Returns a fresly allocated new zero-terminated string 
    containing <len> chars from <inStr> */
 char *copy_str(char *inStr, short len);
