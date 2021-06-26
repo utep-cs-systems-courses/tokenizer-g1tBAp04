@@ -10,13 +10,14 @@ void add_history (List *list, char *str){
   Item *node = list -> root;
   int id = 1;
 
+  //new list
   if(node == NULL){
     list -> root = (Item*) malloc(sizeof (Item));
     list ->root->id;
     list -> root -> str = str;
     list -> root -> next = NULL;
   }
-
+  //add list
   else{
     while(node->next != NULL){
       node = node->next;
@@ -39,10 +40,6 @@ char *get history(List *list, int id){
     node-> node.next;
   }
   return "Not found.";
-
-  while(node != NULL){
-    printf("\n%s", node -> str);
-    node = node -> next;
   }
 }
 

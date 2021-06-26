@@ -91,7 +91,6 @@ void print_tokens(char **tokens){
     printf("\n%s", *tokens);
     tokens++;
   }
-  tokens = startAddress;
 }
 
 void free_tokens(char **tokens{
